@@ -2,6 +2,7 @@ import React from 'react'
 import classes from './featuredBlogs.module.css'
 import mountainImg1 from '../../assets/mountain1.jpg'
 import mountainImg2 from '../../assets/mountain2.jpg'
+import mountainImg3 from '../../assets/mountain3.jpg'
 import {MdOutlinePreview} from 'react-icons/md'
 import {AiFillLike} from 'react-icons/ai'
 
@@ -29,8 +30,8 @@ const FeaturedBlogs = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corrupti harum quidem.
                 </p>
                 <div className={classes.authorAndCreatedAt}>
-                  <span><span>Author:</span> Villy</span>
-                  <span><span>Created:</span> 27-02-2023</span>
+                  <span><span>Author:</span> XYZW</span>
+                  <span><span>Created:</span> 09-07-2024</span>
                 </div>
               </div>
             </div>
@@ -44,21 +45,21 @@ const FeaturedBlogs = () => {
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, hic inventore? Atque?
                 </p>
                 <div className={classes.authorAndCreatedAt}>
-                  <span><span>Author:</span> Villy</span>
-                  <span><span>Created:</span> 27-02-2023</span>
+                  <span><span>Author:</span>  XYZW</span>
+                  <span><span>Created:</span>  09-07-2024</span>
                 </div>
               </div>
             </div>
             <div className={classes.secondaryBlog}>
-              <img src={mountainImg2} alt="" />
+              <img src={mountainImg3} alt="" />
               <div className={classes.secondaryBlogData}>
                 <h4>Blog 3 title</h4>
                 <p className={classes.desc}>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, hic inventore? Atque?
                 </p>
                 <div className={classes.authorAndCreatedAt}>
-                  <span><span>Author:</span> Villy</span>
-                  <span><span>Created:</span> 27-02-2023</span>
+                  <span><span>Author:</span> XYZW</span>
+                  <span><span>Created:</span>  09-07-2024</span>
                 </div>
               </div>
             </div>

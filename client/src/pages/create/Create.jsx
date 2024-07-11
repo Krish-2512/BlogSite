@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { request } from '../../utils/fetchApi'
 
+
 const Create = () => {
   const [title, setTitle] = useState("")
   const [desc, setDesc] = useState("")
@@ -123,7 +124,7 @@ const Create = () => {
             </div>
             <div className={classes.buttonWrapper}>
               <button className={classes.submitBtn} type="submit">
-                Submit form
+                Add Post
               </button>
             </div>
           </form>

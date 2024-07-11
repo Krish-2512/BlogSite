@@ -7,6 +7,7 @@ import Create from './pages/create/Create';
 import BlogDetails from './pages/blogDetails/BlogDetails';
 import UpdateBlog from './pages/updateBlog/UpdateBlog';
 import { useSelector } from 'react-redux';
+import Contacts from './pages/Contacts/contact';
 
 function App() {
   const { user } = useSelector((state) => state.auth)
@@ -20,6 +21,8 @@ function App() {
         <Route path='/create' element={user ? <Create /> : <Navigate to='/login' />} />
         <Route path='/blogDetails/:id' element={user ? <BlogDetails /> : <Navigate to='/login' />} />
         <Route path='/updateBlog/:id' element={user ? <UpdateBlog /> : <Navigate to='/login' />} />
+        <Route path='/contacts' element={user ? <Contacts/> : <Navigate to='/login' />} />
+        <Route path='/logout' element={<Login/>} />
       </Routes>
     </div>
   );

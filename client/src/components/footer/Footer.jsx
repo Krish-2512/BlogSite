@@ -6,23 +6,22 @@ const Footer = () => {
     <footer>
       <div className={classes.wrapper}>
         <div className={classes.col}>
-          <h2>About the App</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Possimus quo voluptatum, ullam quam perspiciatis deleniti obcaecati architecto,
-            sed minus culpa autem suscipit rem vero voluptas alias animi. Iure, eaque dicta!
+          <h2>About the Blog Site</h2>
+          <p>
+            A site where you can post news and images and get information about past posts shared by others .You can add post in several different categories and can like other posts  as per your wish.
+            You can also edit post and can add description.
           </p>
         </div>
         <div className={classes.col}>
-          <h2>Contacts</h2>
-          <span>Phone: +123 456 789</span>
-          <span>YouTube: WebDevMania</span>
-          <span>GitHub: WebDevMania</span>
+        <h2>Contacts</h2>
+          <span>Phone:+9199310xxxxx</span>
+          <span> LinkedIn:Project</span>
         </div>
         <div className={classes.col}>
           <h2>Location</h2>
-          <span>Continent: Europe</span>
-          <span>Country: Bulgaria</span>
-          <span>Current Location: Bulgaria</span>
+   
+          <span>Country: India</span>
+          <span>Current Location: Guwahati</span>
         </div>
       </div>
     </footer>

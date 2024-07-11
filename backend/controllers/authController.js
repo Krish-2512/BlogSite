@@ -42,5 +42,11 @@ authController.post('/login', async (req, res) => {
         return res.status(500).json(error) 
     }
 })
+//Logout Route
+authController.get("/logout", (req, res) => {
+    //!Logout
+    res.clearCookie("token");
+   
+  });
 
 module.exports = authController

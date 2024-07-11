@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     border-bottom: 1px solid #777;
-    background-color: #000;
+    background-color: #5ff0e9;
     z-index: 999;
 }
 
@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 /* left */
@@ -26,7 +27,7 @@
 
 .left > a{
     text-decoration: none;
-    color: #fff;
+    color: #0c0b0b;
 }
 
 /* center */

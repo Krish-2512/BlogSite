@@ -94,6 +94,7 @@ const Categories = () => {
                     <Link to={`/blogDetails/${blog._id}`} className={classes.readMore}>
                       Read More <FiArrowRight />
                     </Link>
+                    
                   </div>
                 </div>
               ))}

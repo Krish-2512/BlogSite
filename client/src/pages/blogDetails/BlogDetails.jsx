@@ -69,7 +69,7 @@ const BlogDetails = () => {
                   <AiFillEdit />
                 </Link>
                 <div className={classes.delete}>
-                  <AiFillDelete onClick={handleDeleteBlog}/>
+                  <button onClick={handleDeleteBlog()}>Remove </button>
                 </div>
               </div>
               :
@@ -88,7 +88,7 @@ const BlogDetails = () => {
           </div>
           <div className={classes.descAndLikesViews}>
             <p className={classes.desc}>
-              <span>Description: </span>
+              <h3>Description: </h3>
               {blogDetails?.desc}
             </p>
             <div className={classes.likesAndViews}>
@@ -99,6 +99,7 @@ const BlogDetails = () => {
           <div className={classes.authorAndCreatedAt}>
             <span><span>Author:</span> {blogDetails?.userId?.username}</span>
             <span><span>Created At:</span> {format(blogDetails?.createdAt)}</span>
+            <button style={{color:'white',background:'blue',width:'65px',height:'40px',borderRadius:'5px'}}><Link style={{color:'white',textDecoration:'none',background:'blue'}}to={`/updateBlog/${id}`}>Update</Link> </button>
           </div>
         </div>
       </div>
